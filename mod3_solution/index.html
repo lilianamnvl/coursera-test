@@ -1,39 +1,85 @@
 <!DOCTYPE html>
 
 <head>
-	<title>Week 2 Solution</title>
-	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 3 Solution</title>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <body>
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <div class="navbar-brand">
+                        <a href="#"><h1>Food, LLC</h1></a>
+                    </div>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <!-- End navbar-header-->
+                <!-- .collapse .navbar-collapse -->
+            </div>
+            <!-- End nav container-->
+            <div id="collapsable-nav" class="collapse navbar-collapse ">
+                <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs ">
+                    <li><a href="#item1" id="nav_item1" class="text-center">Chicken</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#item2" id="nav_item2" class="text-center">Beef</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#item3" id="nav_item2" class="text-center">Sushi</a></li>
+                </ul>
+                <!-- #nav-list -->
+            </div>
+        </nav>
+    </header>
+    <h2 id="main_title" class="text-center">Our Menu</h2>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12 col_container">
+                <div id="item1" class="menu_items">
+                <p><h3 id="item1_title" class="title text-center">Chicken</h3></p>
 
-	<h1>Our Menu</h1>
+                <p class="dummy_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lacinia nibh sit amet dui cursus, ut consectetur risus aliquam. In lobortis felis nec lacus rutrum scelerisque. Sed a metus ac libero sagittis efficitur quis vel augue. Curabitur nec nisl venenatis, mattis dolor vel, rhoncus sapien. Ut interdum sagittis tortor, eu vestibulum nulla commodo suscipit. Quisque et pharetra lectus, ac eleifend purus. Cras id nibh vitae ex bibendum consequat sed vel urna. Fusce nec tellus quis nisl consectetur maximus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lacinia nibh sit amet dui cursus, ut consectetur risus aliquam. In lobortis felis nec lacus rutrum scelerisque. Sed a metus ac libero sagittis efficitur quis vel augue. Curabitur nec nisl venenatis, mattis dolor vel, rhoncus sapien. Ut interdum sagittis tortor, eu vestibulum nulla commodo suscipit. Quisque et pharetra lectus, ac eleifend purus. Cras id nibh vitae ex bibendum consequat sed vel urna. Fusce nec tellus quis nisl consectetur maximus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lacinia nibh sit amet dui cursus, ut consectetur risus aliquam. In lobortis felis nec lacus rutrum scelerisque.
+                </p>
+                <div class="back_top_link"><a id="top_link"href="#main_title">Back to top</a></div>
+                </div> <!-- END DIV ITEM1-->
+            </div> <!-- END OF CONTAINER ITEM1 -->
 
-	<div id=container >
-		<div id=item1 class="menu_items">
-			<p id=p1 class="title">Chicken</p>
-			<p class="dummy_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lacinia nibh sit amet dui cursus, ut consectetur risus aliquam. In lobortis felis nec lacus rutrum scelerisque. Sed a metus ac libero sagittis efficitur quis vel augue. Curabitur nec nisl venenatis, mattis dolor vel, rhoncus sapien. Ut interdum sagittis tortor, eu vestibulum nulla commodo suscipit. Quisque et pharetra lectus, ac eleifend purus. Cras id nibh vitae ex bibendum consequat sed vel urna. Fusce nec tellus quis nisl consectetur maximus.
-			</p>
-		</div>
+            <div class="col-md-4 col-sm-6 col-xs-12 col_container">
+                <div id="item2" class="menu_items">
+                    
+                     <p><h3 id="item2_title" class="title text-center">Beef</h3></p>
+                    <p class="dummy_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lacinia nibh sit amet dui cursus, ut consectetur risus aliquam. In lobortis felis nec lacus rutrum scelerisque. Sed a metus ac libero sagittis efficitur quis vel augue. Curabitur nec nisl venenatis, mattis dolor vel, rhoncus sapien. Ut interdum sagittis tortor, eu vestibulum nulla commodo suscipit. Quisque et pharetra lectus, ac eleifend purus. Cras id nibh vitae ex bibendum consequat sed vel urna. Fusce nec tellus quis nisl consectetur maximus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lacinia nibh sit amet dui cursus, ut consectetur risus aliquam. In lobortis felis nec lacus rutrum scelerisque. Sed a metus ac libero sagittis efficitur quis vel augue. Curabitur nec nisl venenatis, mattis dolor vel, rhoncus sapien. Ut interdum sagittis tortor, eu vestibulum nulla commodo suscipit. Quisque et pharetra lectus, ac eleifend purus. Cras id nibh vitae ex bibendum consequat sed vel urna. Fusce nec tellus quis nisl consectetur maximus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lacinia nibh sit amet dui cursus, ut consectetur risus aliquam. In lobortis felis nec lacus rutrum scelerisque.
+                    </p>
+                    <div class="back_top_link"><a id="top_link" href="#main_title">Back to top</a></div>
+                </div> <!-- END DIV ITEM2-->
+            </div> <!-- END OF CONTAINER ITEM2 -->
 
-		<div id=item2 class="menu_items">
-			<p id=p2 class="title">Beef</p>
-			<p class="dummy_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lacinia nibh sit amet dui cursus, ut consectetur risus aliquam. In lobortis felis nec lacus rutrum scelerisque. Sed a metus ac libero sagittis efficitur quis vel augue. Curabitur nec nisl venenatis, mattis dolor vel, rhoncus sapien. Ut interdum sagittis tortor, eu vestibulum nulla commodo suscipit. Quisque et pharetra lectus, ac eleifend purus. Cras id nibh vitae ex bibendum consequat sed vel urna. Fusce nec tellus quis nisl consectetur maximus.
-			</p>
-		</div>
-
-		<div id=item3 class="menu_items">
-			<p id=p3 class="title">Sushi</p>
-			<p class="dummy_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lacinia nibh sit amet dui cursus, ut consectetur risus aliquam. In lobortis felis nec lacus rutrum scelerisque. Sed a metus ac libero sagittis efficitur quis vel augue. Curabitur nec nisl venenatis, mattis dolor vel, rhoncus sapien. Ut interdum sagittis tortor, eu vestibulum nulla commodo suscipit. Quisque et pharetra lectus, ac eleifend purus. Cras id nibh vitae ex bibendum consequat sed vel urna. Fusce nec tellus quis nisl consectetur maximus.
-			</p>
-		</div>
-
-		<div style="clear: both;"></div>
+            <div class=" col-md-4 col-sm-12 col-xs-12 col_container">
+                <div id="item3" class="menu_items">
+                     
+                      <p><h3 id="item3_title" class="title text-center">Sushi</h3></p>
+                    <p class="dummy_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lacinia nibh sit amet dui cursus, ut consectetur risus aliquam. In lobortis felis nec lacus rutrum scelerisque. Sed a metus ac libero sagittis efficitur quis vel augue. Curabitur nec nisl venenatis, mattis dolor vel, rhoncus sapien. Ut interdum sagittis tortor, eu vestibulum nulla commodo suscipit. Quisque et pharetra lectus, ac eleifend purus. Cras id nibh vitae ex bibendum consequat sed vel urna. Fusce nec tellus quis nisl consectetur maximus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lacinia nibh sit amet dui cursus, ut consectetur risus aliquam. In lobortis felis nec lacus rutrum scelerisque. Sed a metus ac libero sagittis efficitur quis vel augue. Curabitur nec nisl venenatis, mattis dolor vel, rhoncus sapien. Ut interdum sagittis tortor, eu vestibulum nulla commodo suscipit. Quisque et pharetra lectus, ac eleifend purus. Cras id nibh vitae ex bibendum consequat sed vel urna. Fusce nec tellus quis nisl consectetur maximus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi lacinia nibh sit amet dui cursus, ut consectetur risus aliquam. In lobortis felis nec lacus rutrum scelerisque. 
+                    </p>
+                    <div class="back_top_link"><a id="top_link" href="#main_title">Back to top</a></div>
+                </div> <!-- END DIV ITEM3-->
+            </div> <!-- END OF CONTAINER ITEM3 -->
 
 
-	</div>
-	
+        </div><!-- END OF ROW DIV -->
 
-<script type="text/javascript" src="js/script.js"></script>
+        <div id="anchor-div"></div>
+    </div>
+    <!--END CONTAINER-->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
+
 </html>
