@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    font-family: Comic Sans MS, cursive, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/** HEADER **/
+
+#header-nav {
+    background-color: gray;
+    border-radius: 2px;
+    border: 1px black solid;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+}
+
+.navbar-brand h1 {
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    color: black;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #c6c2c2;
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 1px solid darkgray;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -43px;
+}
+
+.navbar {
+    margin: 0 0.3% 20px 0.3%;
+}
+
+ .divider {
+position: relative;
+border-bottom: 1px solid darkgray;
+margin-bottom: 1%;
+margin-top: 1%;
+}
+
+#collapsable-nav{
+	background-color: gainsboro;
+	--width: 99%;
+	--margin-right: 0.1%; 
+   -- margin-left: 0.1%; 
+   -- padding-left: 0;
+ --   padding-right: 0;
+}
+
+/* END HEADER STYLE*/
+
+
+/* *CONTAINER  * */
+
+div.container {
+    width: 95%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 1%;
+}
+
+
+/* END CONTAINER * */
+
+
+/*  *MAIN CONTENT*  */
+
+#main_title {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 2%;
+    font-size: 1.75em;
+    font-family: Comic Sans MS, cursive, sans-serif;
+}
+
+#anchor-div {
+    clear: both;
+}
+
+div.menu_items {
+    background-color: slategrey;
+    position: relative;
+    border-radius: 3px;
+    height: 1000px;
+    overflow: hidden;
+}
+
+.title {
+    text-align: center;
+    position: relative;
+    margin: 2%;
+    font-weight: 700;
+    font-size: 1.25em;
+}
+
+.dummy_text {
+    margin: 3%;
+    font-size: 1em;
+}
